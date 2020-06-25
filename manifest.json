@@ -1,0 +1,32 @@
+{
+  "name": "Ad free news",
+  "version": "1.10",
+  "description": "Enjoy news portal without ads",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "css": ["style.css"],
+      "matches": [
+        "https://ekantipur.com/*",
+        "https://www.onlinekhabar.com/*",
+        "https://www.setopati.com/*",
+        "https://www.news24nepal.tv/*",
+        "https://www.reportersnepal.com/*",
+        "https://www.khabarhub.com/*",
+        "https://www.janaboli.com/*",
+        "https://sancharkendra.com/*",
+        "https://nepalkhabar.com/*",
+        "https://www.dcnepal.com/*",
+        "https://ratopati.com/*",
+        "http://annapurnapost.com/*"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "128": "icons/icon-150.png"
+    }
+  }
+}

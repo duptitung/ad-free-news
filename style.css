@@ -1,0 +1,22 @@
+/*ekantipur*/
+.static-ad,
+/*ekantipur*/.static-sponsor,
+[class^="add"],
+.side__add,
+.top__ads,
+/*onlinekhabar*/[class^="okam-ad"],
+/*onlinekhabar*/[class*="bigyaapan"],
+.slider-ad,
+.insert-ad,
+.editor-box > .items,
+/*onlinekhabar*/#ok18-roadblock-wrap,
+/*news24, reportersnepal, khabarhub, janabholi*
+*can hide essential widgets too */
+.widget,
+/*sancharkendra*/.addb, .skada, .skadd,
+/*nepalkhabar*/.nk-sidebar-ads,
+/*dcnepal*/.ad__space, .topbanner, .ads-after-featured,
+/*ratopati*/ img[alt="ad"], .adalytics_ad,
+/*annapurnapost*/ .advertisement, .sticky-footer {
+  display: none !important;
+}
