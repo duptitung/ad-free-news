@@ -1,5 +1,5 @@
 /*ekantipur*/
-.static-ad,
+.static-ad, .ekans-wrapper, #roadblock-ad,
 /*ekantipur*/.static-sponsor,
 [class^="add"],
 .side__add,
@@ -18,5 +18,5 @@
 /*dcnepal*/.ad__space, .topbanner, .ads-after-featured,
 /*ratopati*/ img[alt="ad"], .adalytics_ad,
 /*annapurnapost*/ .advertisement, .sticky-footer {
-  display: none !important;
+    display: none !important;
 }
